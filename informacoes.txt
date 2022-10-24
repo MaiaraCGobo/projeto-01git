@@ -6,3 +6,18 @@ git status
 
 git add " nome do arquivo.txt(ou qualquer outro .+) "
 [ serve para adicionar o arquivo que ja esta na pasta/repositorio]
+
+git add .
+[ adiciona todos os arquivos em vermelho ]
+
+git commit -m "(mensagem)"
+[ commit -m quer dizer uma mensagem que represente o que voce enviou como umar versao inicial por ex: commit inicial . Caso de algum erro ele vai te pedir para configurar o seu git config, ai e so seguir a linha.(nao se esqueca, depois de cada alteracao de um commit -m) ]
+
+git remote add origin
+[ e o endereco aonde vc vai enviar seu repositorio/arquivos ]
+
+git push
+[ para subir o arquivo na nuvem github ]
+
+git push --set-upstream origin master
+[ sobe o arquivo para seu repositorio no github ]
