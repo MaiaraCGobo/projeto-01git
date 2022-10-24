@@ -67,7 +67,10 @@ git checkout master
 git marge staging
 [puxa as atualizacoes para a branch atual master]
 
---------------------------------------------------------------------
+--------------------------pull request--------------------------------
+
+
+
 
 
 
