@@ -1,2 +1,2 @@
-# projeto-01git
+# projeto-01git.py
 Exercicios de python em andamento...
