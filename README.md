@@ -1,2 +1,2 @@
 # projeto-01git
-testando git
+Exercicios de python em andamento...
