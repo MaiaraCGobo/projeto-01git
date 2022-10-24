@@ -1,3 +1,8 @@
+**------------------**
+*-MaiaraCristinaGobo-*
+*-NotasGit-----------*
+**------------------**
+
 git init
 [ cria um .git dentro da sua pasta repositorio]
 
@@ -21,3 +26,61 @@ git push
 
 git push --set-upstream origin master
 [ sobe o arquivo para seu repositorio no github ]
+
+git reflog
+[ mostra a versao do seu codigo ]
+
+------------------ avancado --------------------
+
+{
+git reset --hard (insira o id)
+[ para voltar a versao anterior do seu codigo, o id se encontra no git reflog ]
+
+git reset --hard (insira o id)
+[ para ir na versao atual depois de verificar no git reflog ] 
+
+#utilizar estes comando se for realmente preciso, consultar seu analista e a documentacao. 
+}
+ 
+
+----------------- branch -----------------------
+
+A branch pode ser varias, paralelas.
+
+git branch
+[ para ver quais branch`s estao disponiveis ]
+
+git branch staging
+(criar outro nome se quiser, o mais comum e staging )
+[ criar uma nova branch que recebe atualizacoes que nao estao testadas ]
+
+git checkout (e o nome da branch)
+[ serve para trocar de branch ]
+
+
+
+------------------------processo marge-------------------------------
+
+git checkout master
+[entra na branch principal]
+
+git marge staging
+[puxa as atualizacoes para a branch atual master]
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
