@@ -1,0 +1,8 @@
+git init
+[ cria um .git dentro da sua pasta repositorio]
+
+git status
+[ ver as informacoes dos arquivos ]
+
+git add " nome do arquivo.txt(ou qualquer outro .+) "
+[ serve para adicionar o arquivo que ja esta na pasta/repositorio]
